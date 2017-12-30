@@ -1,6 +1,6 @@
 {
   "name": "generator-parcel-hyper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a bare `hyper` project with jsx and object rest spread",
   "main": "index.js",
   "license": "MIT",
