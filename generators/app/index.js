@@ -23,11 +23,11 @@ module.exports = class extends Generator {
       this.destinationPath('src/index.js')
     )
     this.fs.copyTpl(
-      this.templatePath('.babelrc'),
+      this.templatePath('babelrc'),
       this.destinationPath('.babelrc')
     )
     this.fs.copyTpl(
-      this.templatePath('.eslintrc'),
+      this.templatePath('eslintrc'),
       this.destinationPath('.eslintrc')
     )
   }
